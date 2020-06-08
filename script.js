@@ -16,7 +16,7 @@ function displayTimeLeft () {
     const h = Math.floor((distance % (24*60*60*1000)) / (60*60*1000));
     const m = Math.floor((distance % (60*60*1000)) / (60*1000));
     const s = Math.floor((distance % (60*1000)) / (1000));
-    console.log(days, hours, minutes, seconds);
+    // console.log(days, hours, minutes, seconds);
 
     // Add values to the DOM
     days.innerHTML = d;
