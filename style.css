@@ -69,11 +69,12 @@ h1 {
 
 @media (max-width: 500px) {
     h1 {
-        font-size: 20px;
+        font-size: 26px;
+        letter-spacing: 3px;
     }
 
     .time {
-        margin: 5px;
+        margin: 8px;
     }
 
     .time h2 {
